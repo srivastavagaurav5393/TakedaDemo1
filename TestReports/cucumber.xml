@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.4">
+    <testcase classname="End to End Functional Test" name="Product Search and add to shopping cart" time="19.195">
+        <system-out><![CDATA[Given user is on Home Page..................................................passed
+When he search for "Head first java"........................................passed
+And choose to buy the first item............................................passed
+And Add product to shopping cart............................................passed
+And User clicks on shopping cart............................................passed
+And Cliks on proceed to check out...........................................passed
+Then User should be asked to login before checkout..........................passed
+]]></system-out>
+    </testcase>
+</testsuite>
