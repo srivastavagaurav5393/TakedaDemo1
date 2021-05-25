@@ -1,4 +1,4 @@
-name: Takeda Demo 1 CI
+name: Takeda Demo 1 
 
 on:
   push:
