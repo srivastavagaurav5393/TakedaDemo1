@@ -11,6 +11,7 @@ Scenario Outline: Product Search and add to shopping cart
 		And User clicks on shopping cart
 		And Cliks on proceed to check out
 		Then User should be asked to login before checkout
+	@tags
 	Examples:
     | product   | 
     | Head first java |

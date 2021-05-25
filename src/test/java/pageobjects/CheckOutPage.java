@@ -12,7 +12,8 @@ public class CheckOutPage {
 	@FindBy(id = "nav-cart-count")
 	private WebElement shoppingCart;
 	
-	@FindBy(xpath = "//input[@value='Proceed to checkout']")
+	//@FindBy(xpath = "//input[@value='Proceed to checkout']")
+	@FindBy(xpath = "//*[@id='sc-buy-box-ptc-button']/span/input")
 	//@FindBy(xpath="//*[@id='hlb-ptc-btn-native']")
 	private WebElement proceedCheckPOut;
 	

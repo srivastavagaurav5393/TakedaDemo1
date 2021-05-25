@@ -3,8 +3,8 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-26T13:06:57.358Z",
-        "line": 16,
+        "start_timestamp": "2021-05-25T11:50:31.081Z",
+        "line": 17,
         "name": "Product Search and add to shopping cart",
         "description": "",
         "id": "end-to-end-functional-test;product-search-and-add-to-shopping-cart;;2",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3381965700,
+              "duration": 5787000000,
               "status": "passed"
             },
             "line": 7,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 2980031400,
+              "duration": 3213000000,
               "status": "passed"
             },
             "line": 8,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 3361012500,
+              "duration": 3788000000,
               "status": "passed"
             },
             "line": 9,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 167553100,
+              "duration": 1997000000,
               "status": "passed"
             },
             "line": 10,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 1263625600,
+              "duration": 2162000000,
               "status": "passed"
             },
             "line": 11,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 595403800,
+              "duration": 3213000000,
               "status": "passed"
             },
             "line": 12,
@@ -91,7 +91,7 @@
           },
           {
             "result": {
-              "duration": 7379444300,
+              "duration": 4573000000,
               "status": "passed"
             },
             "line": 13,
@@ -100,6 +100,11 @@
               "location": "stepdefinition.Steps.enterPersonalDetailsOnLoginPage()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tags"
           }
         ]
       }
