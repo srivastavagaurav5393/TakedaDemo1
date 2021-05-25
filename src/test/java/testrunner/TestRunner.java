@@ -1,9 +1,13 @@
 
 package testrunner;
-
+/*
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
+*/
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -11,7 +15,7 @@ import org.junit.runner.RunWith;
         glue = {"stepdefinition"},
         dryRun = false,
         monochrome = false,
-        plugin = {"pretty","json:TestReports/cucumber.json","junit:TestReports/cucumber.xml"}
+         plugin = {"pretty","json:TestReports/cucumber.json","junit:TestReports/cucumber.xml"}
        // plugin = {"html:TestReports", "json:TestReports/cucumber.json", "junit:TestReports/cucumber.xml"}
 
 )
