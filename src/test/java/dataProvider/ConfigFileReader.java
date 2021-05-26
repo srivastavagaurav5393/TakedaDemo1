@@ -11,7 +11,7 @@ import enums.EnvironmentType;
  
 public class ConfigFileReader {	
 	private Properties properties;
-	private final String propertyFilePath= "configs\\Configuation.properties";
+	private final String propertyFilePath= "configs/Configuation.properties";
  
 	public ConfigFileReader(){
 		BufferedReader reader;
