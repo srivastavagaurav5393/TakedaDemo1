@@ -8,9 +8,9 @@ Scenario Outline: Product Search and add to shopping cart
 		When he search for "<product>"
 		And choose to buy the first item
 		And Add product to shopping cart
-		And User clicks on shopping cart
-		And Cliks on proceed to check out
-		Then User should be asked to login before checkout
+		#And User clicks on shopping cart
+		#And Cliks on proceed to check out
+		#Then User should be asked to login before checkout
 	@amazonCheckout
 	Examples:
     | product   | 
