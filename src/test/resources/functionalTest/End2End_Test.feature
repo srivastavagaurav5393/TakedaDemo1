@@ -14,6 +14,6 @@ Scenario Outline: Product Search and add to shopping cart
 	@amazonCheckout
 	Examples:
     | product   | 
-    | Head first java |
+    | Head first |
 
    
