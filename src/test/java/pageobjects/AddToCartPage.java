@@ -11,7 +11,9 @@ public class AddToCartPage {
 	
 
 	//@FindBy(id = "add-to-cart-button-ubb")
-	@FindBy(xpath = "//*[@id='add-to-cart-button-ubb']")
+	@FindBy(xpath = "//input[@id='add-to-cart-button-ubb']")
+	//@FindBy(xpath = "//*[@id='add-to-cart-button-ubb']")
+
 
 	private WebElement addToCart;
 	
