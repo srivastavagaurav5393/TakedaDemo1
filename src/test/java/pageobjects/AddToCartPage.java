@@ -10,8 +10,8 @@ public class AddToCartPage {
 	WebDriver driver;
 	
 
-	@FindBy(id = "add-to-cart-button-ubb")
-	//@FindBy(xpath = "//input[@id='add-to-cart-button-ubb']")
+	//@FindBy(id = "add-to-cart-button-ubb")
+	@FindBy(xpath = "//*[@id='add-to-cart-button-ubb']")
 
 	private WebElement addToCart;
 	
